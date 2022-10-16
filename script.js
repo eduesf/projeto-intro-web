@@ -1,10 +1,15 @@
-// Semana 1 - OK
-// Semana 2 - OK
-// Semana 3 - OK
-// Semana 4 - OK
-// Semana 5 - OK
-// Semana 6 - OK
+// SEMANA 1 - OK
+// SEMANA 2 - OK
+// SEMANA 3 - OK
+// SEMANA 4 - OK
+// SEMANA 5 - OK
+// SEMANA 6 - OK
 // SEMANA 7 - OK
+// SEMANA 8 - OK
+// SEMANA 9 - OK
+// SEMANA 10 - OK
+// SEMANA 11 - OK
+// SEMANA 12 - OK
 
 // Objetos Séries (itens)
 // Objeto 1
@@ -13,22 +18,23 @@ const serie1 = {
   ondeAssistir: "HBO Max",
   lancamento: 2011,
   temporadas: 8,
-  episodios: 73,
-  remake: false,
+  // episodios: 73,
+  // remake: false,
   sucesso: true,
   avaliacaoIMDB: 9.2,
-  genero: ["Ação", "Aventura", "Drama"],
+  genero: ["Ação", " Aventura", " Drama"],
   elenco: [
     "Emilia Clarke",
-    "Kit Harington",
-    "Peter Dinklage",
-    "Lena Headey",
-    "Sophie Turner",
+    " Kit Harington",
+    " Peter Dinklage",
+    " Lena Headey",
+    " Sophie Turner",
   ],
   criacao: "David Benioff, D.B. Weiss",
   sinopse:
     "Nove famílias nobres lutam pelo controle sobre as terras míticas de Westeros, enquanto um antigo inimigo retorna depois de estar adormecido por milhares de anos.",
   imagem: "/Imagens Séries/game of thrones_capa.jpg",
+  linkTitulo: "https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_1",
 };
 
 // Objeto 2
@@ -37,23 +43,24 @@ const serie2 = {
   ondeAssistir: "HBO Max",
   lancamento: 1994,
   temporadas: 10,
-  episodios: 235,
-  remake: false,
+  // episodios: 235,
+  // remake: false,
   sucesso: true,
   avaliacaoIMDB: 8.9,
-  genero: ["Comédia", "Romance"],
+  genero: ["Comédia", " Romance"],
   elenco: [
     "Jennifer Aniston",
-    "Courteney Cox",
-    "Lisa Kudrow",
-    "Matt LeBlanc",
-    "Matthew Perry",
-    "David Schwimmer",
+    " Courteney Cox",
+    " Lisa Kudrow",
+    " Matt LeBlanc",
+    " Matthew Perry",
+    " David Schwimmer",
   ],
   criacao: "David Crane, Marta Kauffman",
   sinopse:
     "Relata a vida pessoal de seis amigos em seus 30's na cidade de Manhattan.",
   imagem: "/Imagens Séries/friends_capa.jpg",
+  linkTitulo: "https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0",
 };
 
 // Objeto 3
@@ -62,23 +69,24 @@ const serie3 = {
   ondeAssistir: "Netflix",
   lancamento: 2010,
   temporadas: 11,
-  episodios: 177,
-  remake: false,
+  // episodios: 177,
+  // remake: false,
   sucesso: true,
   avaliacaoIMDB: 8.2,
-  genero: ["Drama", "Terror", "Suspense"],
+  genero: ["Drama", " Terror", " Suspense"],
   elenco: [
     "Andrew Lincoln",
-    "Norman Reedus",
-    "Melissa McBride",
-    "Lauren Cohan",
-    "Danai Gurira",
-    "Jeffrey Dean Morgan",
+    " Norman Reedus",
+    " Melissa McBride",
+    " Lauren Cohan",
+    " Danai Gurira",
+    " Jeffrey Dean Morgan",
   ],
   criacao: "Frank Darabont",
   sinopse:
     "Um Xerife acorda de um coma para dar-se conta que o mundo está em ruínas, e deve liderar um grupo de sobreviventes para se manter vivo.",
   imagem: "/Imagens Séries/the walking dead_capa.jpg",
+  linkTitulo: "https://www.imdb.com/title/tt1520211/?ref_=nv_sr_srsg_0",
 };
 
 // Objeto 4
@@ -87,23 +95,24 @@ const serie4 = {
   ondeAssistir: "Netflix",
   lancamento: 2016,
   temporadas: 4,
-  episodios: 35,
-  remake: false,
+  // episodios: 35,
+  // remake: false,
   sucesso: true,
   avaliacaoIMDB: 8.7,
-  genero: ["Drama", "Fantasia", "Terror"],
+  genero: ["Drama", " Fantasia", " Terror"],
   elenco: [
     "Millie Bobby Brown",
-    "Finn Wolfhard",
-    "Winona Ryder",
-    "David Harbour",
-    "Natalia Dyer",
-    "Charlie Heaton",
+    " Finn Wolfhard",
+    " Winona Ryder",
+    " David Harbour",
+    " Natalia Dyer",
+    " Charlie Heaton",
   ],
   criacao: "Matt Duffer, Ross Duffer",
   sinopse:
     "Depois do desaparecimento de um menino, sua mãe, um chefe de polícia e seus amigos precisam enfrentar forças aterrorizantes para trazê-lo de volta.",
   imagem: "/Imagens Séries/stranger things_capa.jpg",
+  linkTitulo: "https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_0",
 };
 
 // Objeto 5
@@ -112,22 +121,23 @@ const serie5 = {
   ondeAssistir: "Globoplay",
   lancamento: 2017,
   temporadas: 5,
-  episodios: 63,
-  remake: false,
+  // episodios: 63,
+  // remake: false,
   sucesso: true,
   avaliacaoIMDB: 8.6,
-  genero: ["Drama", "Suspense"],
+  genero: ["Drama", " Suspense"],
   elenco: [
     "Júlio Andrade",
-    "Marjorie Estiano",
-    "Bruno Garcia",
-    "Pablo Sanábio",
-    "Julia Shimura",
+    " Marjorie Estiano",
+    " Bruno Garcia",
+    " Pablo Sanábio",
+    " Julia Shimura",
   ],
   criacao: "Jorge Furtado, Renato Fagundes, Luiz Noronha",
   sinopse:
     "Uma série que mostra os dramas entre os médicos e pacientes num hospital do Rio de Janeiro.",
   imagem: "/Imagens Séries/sob pressao_capa.jpg",
+  linkTitulo: "https://www.imdb.com/title/tt7216954/?ref_=nv_sr_srsg_0",
 };
 
 // Objeto 6
@@ -136,22 +146,23 @@ const serie6 = {
   ondeAssistir: "Globoplay",
   lancamento: 2020,
   temporadas: 2,
-  episodios: 20,
-  remake: false,
+  // episodios: 20,
+  // remake: false,
   sucesso: true,
   avaliacaoIMDB: 7.2,
-  genero: ["Drama", "Fantasia", "Mistério"],
+  genero: ["Drama", " Fantasia", " Mistério"],
   elenco: [
     "Cássia Kis",
-    "Cláudia Abreu",
-    "Maria Ribeiro",
-    "Anna Melo",
-    "Camila Botelho",
+    " Cláudia Abreu",
+    " Maria Ribeiro",
+    " Anna Melo",
+    " Camila Botelho",
   ],
   criacao: "Ana Paula Maia",
   sinopse:
     "Após o suicídio de seu marido, uma mulher e suas filhas se mudam para Brigida, uma pequena vila que está prestes a recuperar os festivais pagãos de Ivana Kupala, que foram proibidos 30 anos antes.",
   imagem: "/Imagens Séries/desalma_capa.png",
+  linkTitulo: "https://www.imdb.com/title/tt10839738/?ref_=nv_sr_srsg_1",
 };
 
 // Média das Temporadas (num)
@@ -219,21 +230,6 @@ const arrayMinhasSeries = [];
 // SEMANA 4
 // Condicional para adicionar as séries no array de Objetos
 
-// condicionalAdicionaNoArray = (objSeries) => {
-//   if (objSeries.sucesso) {
-//     arrayMinhasSeries.push(objSeries);
-//   } else {
-//     alert(`A série ${objSeries.titulo}, não pode ser adicionada`);
-//   }
-// };
-
-// console.log(condicionalAdicionaNoArray(serie1));
-// console.log(condicionalAdicionaNoArray(serie2));
-// console.log(condicionalAdicionaNoArray(serie3));
-// console.log(condicionalAdicionaNoArray(serie4));
-// console.log(condicionalAdicionaNoArray(serie5));
-// console.log(condicionalAdicionaNoArray(serie6));
-
 // Condicional 1
 if (serie1.sucesso) {
   arrayMinhasSeries.push(serie1);
@@ -298,19 +294,120 @@ const objMinhaSerie = (obj) => {
   return obj;
 };
 
-console.log(objMinhaSerie(serie3));
-
 // Função que recebe um array de Objeto e uma String, devolve o objeto com o titulo igual a String
 const pesquisaObjNoArray = (arrayObj, string) => {
-  const minhaSerie = arrayObj.filter((filtro, indice, array) => {
+  const buscaSerie = arrayObj.filter((filtro, indice, array) => {
     return filtro.titulo === string.toUpperCase();
   });
 
-  if (minhaSerie.length === 0) {
+  if (buscaSerie.length === 0) {
     alert("Série não está disponível em nosso catalogo");
-  }
+  } else {
+    for (i = 0; i < buscaSerie.length; i++) {
+      let main = document.getElementById("main");
+      let div1 = document.createElement("div");
+      let section = document.createElement("section");
+      let imagem = document.createElement("img");
+      let div2 = document.createElement("div");
+      let a = document.createElement("a");
+      let h4 = document.createElement("h4");
+      let p1 = document.createElement("p");
+      let p2 = document.createElement("p");
+      let p3 = document.createElement("p");
+      let p4 = document.createElement("p");
+      let p5 = document.createElement("p");
+      let p6 = document.createElement("p");
+      let p7 = document.createElement("p");
 
-  return minhaSerie;
+      main.appendChild(div1);
+      div1.appendChild(section);
+      section.appendChild(imagem);
+      section.appendChild(div2);
+      div2.appendChild(h4);
+      div2.appendChild(p1);
+      div2.appendChild(p2);
+      div2.appendChild(p3);
+      div2.appendChild(p4);
+      div2.appendChild(p5);
+      div2.appendChild(p6);
+      div2.appendChild(p7);
+
+      div1.setAttribute("id", "series1");
+      section.setAttribute("class", "serie");
+      div2.setAttribute("class", "infos");
+      imagem.src = buscaSerie[i].imagem;
+
+      h4.appendChild(a);
+      a.setAttribute("href", arrayMinhasSeries[i].linkTitulo);
+      a.setAttribute("target", "_blank");
+      a.innerHTML = buscaSerie[i].titulo.toUpperCase();
+      p1.innerHTML = `Onde Assitir: ${buscaSerie[i].ondeAssistir}`;
+      p2.innerHTML = `Lançamento: ${buscaSerie[i].lancamento}`;
+      p3.innerHTML = `Temporadas: ${buscaSerie[i].temporadas}`;
+      p4.innerHTML = `Avaliacao IMDb: ${buscaSerie[i].avaliacaoIMDB}`;
+      p5.innerHTML = `Genero: ${buscaSerie[i].genero}`;
+      p6.innerHTML = `Elenco: ${buscaSerie[i].elenco}`;
+      p7.innerHTML = `Sinopse: ${buscaSerie[i].sinopse}`;
+    }
+  }
 };
 
-console.log(pesquisaObjNoArray(arrayMinhasSeries, "Friends"));
+// SEMANA 11
+// Criando as informações das séries manipulando o DOM
+for (i in arrayMinhasSeries) {
+  let div1 = document.getElementById("series1");
+  let section = document.createElement("section");
+  let imagem = document.createElement("img");
+  let div2 = document.createElement("div");
+  let a = document.createElement("a");
+  let h4 = document.createElement("h4");
+  let p1 = document.createElement("p");
+  let p2 = document.createElement("p");
+  let p3 = document.createElement("p");
+  let p4 = document.createElement("p");
+  let p5 = document.createElement("p");
+  let p6 = document.createElement("p");
+  let p7 = document.createElement("p");
+
+  div1.appendChild(section);
+  section.appendChild(imagem);
+  section.appendChild(div2);
+  div2.appendChild(h4);
+  div2.appendChild(p1);
+  div2.appendChild(p2);
+  div2.appendChild(p3);
+  div2.appendChild(p4);
+  div2.appendChild(p5);
+  div2.appendChild(p6);
+  div2.appendChild(p7);
+
+  section.setAttribute("class", "serie");
+  div2.setAttribute("class", "infos");
+  imagem.src = arrayMinhasSeries[i].imagem;
+
+  h4.appendChild(a);
+  a.setAttribute("href", arrayMinhasSeries[i].linkTitulo);
+  a.setAttribute("target", "_blank");
+  a.innerHTML = arrayMinhasSeries[i].titulo.toUpperCase();
+  p1.innerHTML = `Onde Assitir: ${arrayMinhasSeries[i].ondeAssistir}`;
+  p2.innerHTML = `Lançamento: ${arrayMinhasSeries[i].lancamento}`;
+  p3.innerHTML = `Temporadas: ${arrayMinhasSeries[i].temporadas}`;
+  p4.innerHTML = `Avaliacao IMDb: ${arrayMinhasSeries[i].avaliacaoIMDB}`;
+  p5.innerHTML = `Genero: ${arrayMinhasSeries[i].genero}`;
+  p6.innerHTML = `Elenco: ${arrayMinhasSeries[i].elenco}`;
+  p7.innerHTML = `Sinopse: ${arrayMinhasSeries[i].sinopse}`;
+}
+
+// SEMANA 12
+// FUNCIONANDO A FUNÇÃO DE BUSCA
+
+function lidarBotao(event) {
+  event.preventDefault();
+  let input = document.getElementById("input").value.toUpperCase();
+  if (input === "") {
+    alert("Insira o título da série !");
+  } else {
+    document.getElementById("series1").remove();
+    pesquisaObjNoArray(arrayMinhasSeries, input);
+  }
+}
