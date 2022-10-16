@@ -9,15 +9,15 @@ header {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   justify-items: center;
-  align-items: start;
+  align-items: center;
   background-color: black;
 }
 
 h1 {
   color: white;
-  font-family: fantasy;
-  font-size: 45px;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-size: 300%;
+  font-weight: 400vw;
 }
 
 h4 {
@@ -25,6 +25,7 @@ h4 {
   font-size: 22px;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a {
@@ -33,7 +34,7 @@ a {
 
 .nav1 {
   display: flex;
-  padding: 30px;
+  padding: 15px;
   margin: 10px;
   flex-direction: column;
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans,
@@ -48,12 +49,30 @@ a {
 
 .nav11 {
   border: 1px solid black;
+  border-radius: 8px;
   color: #fff;
-  padding: 10px;
+  padding: 14px 12px 14px 12px;
   background-color: rgb(54, 53, 53);
   justify-content: center;
+  justify-items: center;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+#assistir img {
+  left: 0px;
+  height: 17px;
+  width: 26px;
+}
+
+#minhaLista img {
+  height: 17px;
+  width: 30px;
+}
+
+#categorias img {
+  height: 17px;
+  width: 30px;
 }
 
 footer {
@@ -75,6 +94,10 @@ footer {
   color: white;
 }
 
+#linkedin {
+  color: white;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -93,11 +116,12 @@ main {
 .serie {
   position: relative;
   display: flex;
+  /* flex-wrap: wrap; */
   border-radius: 15px;
   background-color: #3a3a3a;
   margin-bottom: 30px;
-  height: 300px;
-  width: 1050px;
+  height: 20%;
+  width: 72vw;
 }
 
 p {
@@ -118,15 +142,15 @@ img {
   margin-right: 30px;
 }
 
-#txtBusca {
-  width: 600px;
+#input {
+  width: 40vw;
   height: 35px;
   border-radius: 10px 0 0 10px;
 }
 
 #txtBusca::placeholder {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 26px;
   margin-left: 20px;
 }
 
@@ -139,4 +163,46 @@ img {
 .buttonBusca img {
   height: 30px;
   width: 30px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* celulares */
+
+  .serie {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: #3a3a3a;
+    margin-bottom: 30px;
+    height: 20%;
+    width: 72vw;
+  }
+
+  img {
+    margin-left: 30px;
+    height: 200px;
+    width: 140px;
+    border-radius: 0;
+  }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 700px) {
+  /* tablets */
+  .serie {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: #3a3a3a;
+    margin-bottom: 30px;
+    height: 20%;
+    width: 72vw;
+  }
+
+  img {
+    margin-left: 30px;
+    height: 300px;
+    width: 200px;
+    border-radius: 0;
+  }
 }
